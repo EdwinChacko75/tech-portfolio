@@ -1,0 +1,404 @@
+/* Header Formatting */
+head {
+    margin: 0% 0% 0% 0%;
+}
+/* Body Formatting */
+body {
+    margin: 0px 0px 0px 0px;
+    background-color: #212221;
+    height: 100%;
+}
+/* Navigation Bar */
+    /* Logo */
+.nav #logo {
+    width: auto;
+    height: 6.384vw;
+    overflow: hidden;
+    margin-top: -0.399vw;
+    margin-bottom: -0.399vw;
+}
+    /* File Paths */
+.nav ul {
+    list-style-type: none; 
+    font-size: 1.33vw;
+    background-color: #1181B2;
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    overflow: hidden;
+    margin: 0% 0% 0% 0%;
+}
+.nav li {
+    float: left;
+    text-align: center;
+}
+.nav li a {
+    display: block;
+    color: black;
+    padding: 2.3275vw 3.99vw 2.3275vw 3.99vw;
+    text-decoration: none;
+}
+.nav li a:hover,.nav a.active {
+    color: #DDEDF4;
+    background-color: #212221;
+}
+
+/* Logo Link Padding */
+#logo-link {
+    padding: 0%;
+}
+
+/* Page Header Visuals */
+h1 {
+    text-align: center;
+}
+h1 span {
+    font-size: 2.66vw;
+    color: #DDEDF4;
+    background-color: #212221;
+    padding: 0.9975vw;
+    width: 13.3vw;
+    font-family: 'Newsreader', serif;
+    font-weight: normal;
+    border-style: solid;
+}
+
+/* Home Page Container */
+#welcome-container {
+    position: relative;
+    text-align: center;
+}
+#home-page-header {
+    position: absolute;
+    margin-top: 4%;
+    left: 41%;
+    right: 40%;
+    z-index: 1;
+}
+#galaxy-background {
+    position: relative;
+    width: 100%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+#welcome-content {
+    color: #DDEDF4;
+    font-size: 2.66vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(33, 34, 33);
+    background: rgba(33, 34, 33, 0.8);
+    padding: 0.665vw;    
+    margin: 0.3325vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: #44449B solid 0.133vw;
+}
+
+/* About Me Section 1 */
+#about-me-container {
+    position: relative;
+    text-align: center;
+}
+#about-me-header {
+    position: absolute;
+    margin-top: 4%;
+    left: 41%;
+    right: 40%;
+    z-index: 1;
+}
+#brain-background {
+    position: relative;
+    width: 100%;
+}
+#about-me-content {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 66.6666%;
+    transform: translate(-50%, -50%);
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 2.66vw;
+    color: #212221;
+    padding: 1.995vw;
+    border-style: dashed;
+    border-color: #212221;
+    border-width: 0.1995vw;
+    background: rgb(221, 237, 244);
+    background: rgba(221, 237, 244, 0.65);
+}
+    /* Section 1.0 - Intrests */
+#intrests {
+    position: relative;
+    margin: 5% 8% 7% 7%;
+}
+#intrests-header {
+    text-align: center;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline #DDEDF4;
+}
+#intrests-content {
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 55%;
+    margin-right: 5%;
+    font-size: 1.6625vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #DDEDF4;
+    padding: 0.9975vw;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.3325vw;
+    background: rgb(221, 237, 244);
+    background: rgba(221, 237, 244, 0.3);
+}
+#albert-einstien {
+    width: 26.6vw;
+    height: auto;
+    margin-left: 5%;
+    border: #DDEDF4;
+    border-style: solid;
+    border-width: 0.5em;
+    border-radius: 66.5vw;
+}
+    /* Section 3 Header */
+#future-header {
+    text-align: center;
+    position: absolute;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline #DDEDF4;
+}
+        /* Section 3.0 - Career */
+#career-container {
+    position: relative;
+    text-align: center;
+    background-image: url('https://img.wallpapersafari.com/desktop/1920/1080/7/72/QoSgaO.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+}
+#jet-image {
+    opacity: 0%;
+    width: 100%;
+}
+#career-content {
+    text-align: center;
+    margin: 10% 20% 10% 20%;
+    border-radius: 1.33vw;
+    font-size: 1.5295vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 1.6625vw;
+    color: #DDEDF4;
+    background: #1181B2;
+    position: absolute;
+}
+    /* About Me Footer */
+#footer {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    background-color: #1181B2;
+    text-align: center;
+}
+#button-context {
+    color: #212221;
+    font-size: 2.3275vw;
+    font-family: 'Newsreader', serif;
+    margin-bottom: 2%;
+    border:#212221 solid 0.1995vw;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 0.9975vw;
+    background-color: #DDEDF4;
+}
+        /* Back To Top Button */
+#top-button {
+    color: #DDEDF4;
+    background-color: #212221;
+    padding: 0.9975vw;
+    border: #DDEDF4 solid 0.133vw;
+    font-size: 1.33vw;
+    font-family: 'Newsreader', serif;
+}
+#top-button:hover {
+    color: #212221;
+    background-color: #DDEDF4;
+    border: #212221 solid 0.1995vw;
+    cursor:pointer;
+    transition: 200ms;
+}
+/* Projects Page */
+#projects-container {
+    position: relative;
+    text-align: center;
+}
+#projects-page-header {
+    position: absolute;
+    margin-top: 4%;
+    left: 41%;
+    right: 40%;
+    z-index: 1;
+}
+#sunset-background {
+    width: 100%;
+    transform: scaleX(-1);
+    z-index: -2;
+}
+#projects-content {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family:  'Source Sans Pro', sans-serif;
+    font-size: 3.325vw;
+    color: #DDEDF4;
+    padding: 1.995vw;
+    background: rgb(33, 34, 33);
+    background: rgba(33, 34, 33, 0.65);
+}
+    /* Link To Vault */
+#vault-portal {
+    position: absolute;
+    bottom: 41.5%;
+    left: 43.9%;
+}
+#vault-portal button {
+    border: #DDEDF4 solid 0.1995vw;
+    background-color: #44449B;
+    border-radius: 999px;
+}
+#vault-portal button a {
+    display: block;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    padding: 1.995vw 2.99vw 1.995vw 2.99vw;
+    text-decoration: none;
+}
+#vault-portal button:hover {
+    border: #44449B solid 0.3325vw;
+    background-color: #DDEDF4;
+    border-radius: 999px;
+    transition: 200ms;
+}
+#vault-portal button a:hover {
+    color: #44449B;
+}
+/* Tech Experience Section 1 */
+#tech-exp-container {
+    position: relative;
+    text-align: center;
+    margin: 0%;
+}
+#tech-exp-header {
+    position: absolute;
+    margin-top: 4%;
+    left: 39.25%;
+    right: 38%;
+    z-index: 1;
+}
+#stars-background {
+    position: relative;
+    width: 100%;
+}
+#skills {
+    color: #44449B;    
+    background: rgb(221, 237, 244);
+    background: rgba(221, 237, 244, 0.7);
+    font-size: 1.197vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline;
+    position: absolute;
+    width: 17.29vw;
+    z-index: 1;
+    top: 19%;
+    left: 42%;
+    right: 43%;
+    border-color: #44449B;
+    border-style: solid;
+    border-width: 0.133;
+}
+#skills-content {
+    color: #44449B;
+    font-size: 1.6625vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(221, 237, 244);
+    background: rgba(221, 237, 244, 0.65);
+    padding: 0.665vw;    
+    margin: 0.3325vw;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-color: #44449B;
+    border-style: solid;
+    border-width: 0.133vw;
+}
+    /* Fundraising Project Link */
+#fundraiser-link {
+    font-size: 1.33vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    right: inherit;    
+    color: #DDEDF4;
+    background-color: #44449B;
+    padding: 0.9975vw;
+    border-color: #212221;
+    border-style: solid;
+    border-width: 0.0665vw;
+}
+#fundraiser-link:hover {
+    color: #44449B;
+    background-color: #DDEDF4;
+    border-color: #44449B;
+    border-style: solid;
+    border-width: 0.0665vw;
+    transition: 200ms;
+}
+/* Tech Experience Section 2 */
+#experience {
+    position: relative;
+    margin: 5% 8% 7% 7%;
+}
+#experience-header {
+    text-align: center;
+    margin-top: 5%;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Newsreader', serif;
+    text-decoration: underline #44449B 0.3325vw;
+}
+#anonymous-hacker {
+    width: 26.6vw;
+    height: auto;
+    position: relative;
+    left: 3%;
+    border-style: solid;
+    border-color: #44449B;
+    border-width: 0.5em;
+    border-radius: 66.5vw;
+}
+#experience-content {
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 50%;
+    margin-right: 5%;
+    padding: 0.9975vw;
+    color: #DDEDF4;
+    font-size: 1.6625vw;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #44449B;
+    border-style: solid;
+    border-color: #1181B2;
+    border-width: 0.3325vw;
+    border-radius: 0.665vw;
+}
+/* The End!! */
