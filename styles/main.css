@@ -333,30 +333,7 @@ h1 span {
     border-style: solid;
     border-width: 0.133vw;
 }
-    /* Fundraising Project Link */
-#fundraiser-link {
-    font-size: 1.33vw;
-    font-family: 'Newsreader', serif;
-    text-decoration: none;
-    position: absolute;
-    bottom: 20%;
-    left: 44.5%;
-    right: inherit;    
-    color: #DDEDF4;
-    background-color: #44449B;
-    padding: 0.9975vw;
-    border-color: #212221;
-    border-style: solid;
-    border-width: 0.0665vw;
-}
-#fundraiser-link:hover {
-    color: #44449B;
-    background-color: #DDEDF4;
-    border-color: #44449B;
-    border-style: solid;
-    border-width: 0.0665vw;
-    transition: 200ms;
-}
+
 /* Tech Experience Section 2 */
 #experience {
     position: relative;
